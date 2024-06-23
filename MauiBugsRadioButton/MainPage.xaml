@@ -63,10 +63,6 @@
             </Border>
         </ControlTemplate>
 
-        <Style TargetType="RadioButton">
-            <Setter Property="ControlTemplate"
-                    Value="{StaticResource RadioButtonTemplate}" />
-        </Style>
     </ContentPage.Resources>
 
     <ContentPage.Content>
@@ -75,8 +71,8 @@
                 Spacing="25"
                 VerticalOptions="Start"
                 RadioButtonGroup.GroupName="animals">
-                
-                <RadioButton Value="Cat">
+
+            <RadioButton Value="Cat" ControlTemplate="{StaticResource RadioButtonTemplate}">
                     <RadioButton.Content>
                         <StackLayout>
                             <Label Text="Cat"
@@ -84,8 +80,8 @@
                                VerticalOptions="End" />
                         </StackLayout>
                     </RadioButton.Content>
-                </RadioButton>
-                <RadioButton Value="Dog">
+            </RadioButton>
+            <RadioButton Value="Dog" ControlTemplate="{StaticResource RadioButtonTemplate}">
                     <RadioButton.Content>
                         <StackLayout>
                             <Label Text="Dog"
@@ -93,8 +89,8 @@
                                VerticalOptions="End" />
                         </StackLayout>
                     </RadioButton.Content>
-                </RadioButton>
-                <RadioButton Value="Elephant">
+            </RadioButton>
+            <RadioButton Value="Elephant" ControlTemplate="{StaticResource RadioButtonTemplate}">
                     <RadioButton.Content>
                         <StackLayout>
                             <Label Text="Elephant"
@@ -102,8 +98,8 @@
                                VerticalOptions="End" />
                         </StackLayout>
                     </RadioButton.Content>
-                </RadioButton>
-                <RadioButton Value="Monkey">
+            </RadioButton>
+            <RadioButton Value="Monkey" ControlTemplate="{StaticResource RadioButtonTemplate}">
                     <RadioButton.Content>
                         <StackLayout>
                             <Label Text="Monkey"
@@ -111,7 +107,7 @@
                                VerticalOptions="End" />
                         </StackLayout>
                     </RadioButton.Content>
-                </RadioButton>
+            </RadioButton>
 
             </HorizontalStackLayout>
     </ContentPage.Content>
