@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBugsRadioButton", "MauiBugsRadioButton\MauiBugsRadioButton.csproj", "{3011E79B-EFB9-425B-867D-446B628E4E16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3011E79B-EFB9-425B-867D-446B628E4E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3011E79B-EFB9-425B-867D-446B628E4E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3011E79B-EFB9-425B-867D-446B628E4E16}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3011E79B-EFB9-425B-867D-446B628E4E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3011E79B-EFB9-425B-867D-446B628E4E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3011E79B-EFB9-425B-867D-446B628E4E16}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8BFC1AC-A959-45DE-BB25-60649B74D2FA}
+	EndGlobalSection
+EndGlobal
