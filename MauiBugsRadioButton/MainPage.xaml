@@ -72,43 +72,9 @@
                 VerticalOptions="Start"
                 RadioButtonGroup.GroupName="animals">
 
-            <RadioButton Value="Cat" ControlTemplate="{StaticResource RadioButtonTemplate}">
-                    <RadioButton.Content>
-                        <StackLayout>
-                            <Label Text="Cat"
-                               HorizontalOptions="Center"
-                               VerticalOptions="End" />
-                        </StackLayout>
-                    </RadioButton.Content>
-            </RadioButton>
-            <RadioButton Value="Dog" ControlTemplate="{StaticResource RadioButtonTemplate}">
-                    <RadioButton.Content>
-                        <StackLayout>
-                            <Label Text="Dog"
-                               HorizontalOptions="Center"
-                               VerticalOptions="End" />
-                        </StackLayout>
-                    </RadioButton.Content>
-            </RadioButton>
-            <RadioButton Value="Elephant" ControlTemplate="{StaticResource RadioButtonTemplate}">
-                    <RadioButton.Content>
-                        <StackLayout>
-                            <Label Text="Elephant"
-                               HorizontalOptions="Center"
-                               VerticalOptions="End" />
-                        </StackLayout>
-                    </RadioButton.Content>
-            </RadioButton>
-            <RadioButton Value="Monkey" ControlTemplate="{StaticResource RadioButtonTemplate}">
-                    <RadioButton.Content>
-                        <StackLayout>
-                            <Label Text="Monkey"
-                               HorizontalOptions="Center"
-                               VerticalOptions="End" />
-                        </StackLayout>
-                    </RadioButton.Content>
-            </RadioButton>
-
+                <RadioButton Value="Cat" Content="Cat" />
+                <RadioButton Value="Dog" Content="Dog" />
+                <RadioButton Value="Elephant" Content="Elephant" />
             </HorizontalStackLayout>
     </ContentPage.Content>
 </ContentPage>
