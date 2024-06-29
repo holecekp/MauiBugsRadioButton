@@ -72,7 +72,7 @@
                 VerticalOptions="Start"
                 RadioButtonGroup.GroupName="animals">
 
-            <RadioButton Value="Cat" ControlTemplate="{StaticResource RadioButtonTemplate}">
+            <RadioButton Value="Cat">
                     <RadioButton.Content>
                         <StackLayout>
                             <Label Text="Cat"
@@ -81,7 +81,7 @@
                         </StackLayout>
                     </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="Dog" ControlTemplate="{StaticResource RadioButtonTemplate}">
+            <RadioButton Value="Dog">
                     <RadioButton.Content>
                         <StackLayout>
                             <Label Text="Dog"
@@ -90,7 +90,7 @@
                         </StackLayout>
                     </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="Elephant" ControlTemplate="{StaticResource RadioButtonTemplate}">
+            <RadioButton Value="Elephant">
                     <RadioButton.Content>
                         <StackLayout>
                             <Label Text="Elephant"
@@ -99,7 +99,7 @@
                         </StackLayout>
                     </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="Monkey" ControlTemplate="{StaticResource RadioButtonTemplate}">
+            <RadioButton Value="Monkey">
                     <RadioButton.Content>
                         <StackLayout>
                             <Label Text="Monkey"
